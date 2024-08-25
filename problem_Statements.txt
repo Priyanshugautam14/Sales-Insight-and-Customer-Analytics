@@ -1,0 +1,107 @@
+1. Basic Inner Join
+
+Retrieve a list of all products that have been purchased, including the product name and the total quantity purchased.
+
+2. Inner Join with Multiple Conditions
+
+Retrieve the names and emails of customers who have purchased more than 3 items in a single purchase.
+
+3. Left Join
+
+Get a list of all products, showing the total quantity sold for each product. Include products that haven’t been sold.
+
+4. Right Join
+
+Find all purchases where the customer details are missing (i.e., the customer was not found in the customers table).
+
+5. Full Outer Join
+
+Generate a report showing all products and all purchases, even if there are no matching records in the other table.
+
+6. Self Join
+
+Find all customers who have the same name as another customer (i.e., duplicate names).
+
+7. Cross Join
+
+Generate a list showing every possible combination of products and customers.
+
+8. Join with Aggregation
+
+List each customer with the total amount they’ve spent across all their purchases.
+
+9. Join with Subquery
+
+Retrieve the details of the most recent purchase for each customer.
+
+10. Advanced Join with CTE
+
+Use a Common Table Expression (CTE) to list customers who have made purchases of more than 10 units of products in total.
+
+11. Product Sales Analysis
+
+A company wants to analyze its sales data. They need a report that shows the name of each product, the names of customers who purchased each product, and the total quantity purchased.
+
+12. Customer Order Summary
+
+Create a summary report that includes customer names and the total number of orders each customer has placed. The report should include customers who have placed at least one order.
+
+13. Product Availability Check
+
+A store wants to check if there are any products that have never been sold. Generate a list of all products and indicate whether each product has been sold or not.
+
+14. Recent Purchase Details
+
+The marketing team needs to find out the most recent purchase made by each customer, including the product name, purchase date, and quantity purchased.
+
+15. Customer Purchase History
+
+Create a report that shows each customer along with the names of all products they have purchased and the dates of those purchases. Include customers who have made multiple purchases.
+
+16. Sales Performance Report
+
+Generate a report that lists all products along with their sales performance. The report should include the total quantity sold and the average price per product, even if some products have not been sold.
+
+17. Missing Product Information
+
+Identify any purchases where the product information is missing. Generate a report that includes purchase details with a note indicating the absence of product information.
+
+18. Customer Purchase Frequency
+
+Analyze how frequently customers make purchases. Create a report that lists each customer with the number of purchases they have made, including customers with no purchases.
+
+19. Product and Customer Overlap
+
+Create a report that shows which products have been purchased by which customers, including cases where some products have been purchased by multiple customers.
+
+20. Purchase Trends Analysis
+
+A data analyst wants to understand trends in purchase behavior. Generate a report that includes all purchases with the customer name, product name, purchase date, and quantity. Include purchases from all available data.
+
+21. Inventory Insights
+
+A store manager wants to analyze the inventory levels of products to ensure stock availability. Generate a report showing the product name, the quantity sold, and whether each product has low stock (quantity sold is less than 50 units). Include products that have never been sold.
+
+22. Customer Loyalty Check
+
+The marketing team wants to identify loyal customers. Create a report listing customer names and the number of different products they have purchased. The team is particularly interested in customers who have purchased at least five different products.
+
+23. Multi-Customer Product Purchases
+
+The sales team wants to know which products are frequently purchased by multiple customers. Generate a report showing the product names and the number of unique customers who have purchased each product.
+
+24. Purchase Trends by Month
+
+A data analyst is examining monthly purchase trends. Create a report showing the total quantity of products purchased each month and the corresponding customer names.
+
+25. Unlinked Purchases
+
+Sometimes, purchases are recorded without linking to specific products or customers. Identify any purchases that are not linked to both a customer and a product, and generate a report showing the purchase details.
+
+26. Products Bought Together
+
+The marketing department is interested in identifying products that are often bought together by the same customer. Generate a report showing pairs of products that have been purchased together by at least one customer.
+
+27. Product and Customer Diversity
+
+A company wants to measure the diversity of its product offerings. Create a report showing the number of different products purchased by each customer, along with the total amount spent. Include customers who have not made any purchases.
